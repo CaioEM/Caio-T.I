@@ -1,0 +1,73 @@
+.titulo img{
+    width: 17rem;
+    margin: 0 0 0 4rem ;
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: 0.1fr 4fr;
+    border: solid black;
+    border-bottom: none;
+    border-width: 5px;
+    width: 120rem;
+    height: 12rem;
+    background-color: rgba(0, 3, 206, 0.808);
+
+}
+
+.titulo h1{
+    display: flex;
+    font-size: 3.5rem;
+    height: 15rem;
+    width: auto;
+    margin-left: 20rem;
+    margin-top: 3.5rem;
+}
+
+.corpoBusca{
+    text-align: center;
+    height: 37.8rem;
+    background-color: #e3f6ff;
+    border: solid black;
+    border-width: 5px;
+    border-bottom: none;
+}
+
+.infos{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.campo{
+    padding: 1rem;
+}
+input{
+    text-align: center;
+    border: solid black;
+    height: 8rem;
+    width: 25rem;
+}
+
+button{
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 6rem;
+    border-radius: 1rem;
+    border: solid black;
+}
+.link{
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.cpt{
+    width: 20px
+}
+.rodape{
+    border: solid black;
+    text-align: center;
+    background-color: rgba(0, 3, 206, 0.808);
+    border-width: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}

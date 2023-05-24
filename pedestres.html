@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="pedestres.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="pedestres.css">
+    <title>CONTROLE DE ACESSO</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="titulo">
+        <img src="logo-prefeitura.png">
+        <h1 style="color: white;">ENTRADA DE PEDESTRES</h1>
+    </div>
+    </header>
+    <section class="corpoBusca">
+        <div class="entrada">
+            <p>ENTRE COM O CPF</p>
+        </div>
+        <div class="campo">
+            <form method="get" class="formgetCPF">
+                <input id="idcpf" type="text" placeholder="xxx.xxx.xxx-xx" maxlength="11" onblur="formataCPF(this);" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"required> 
+                <br>
+                <br>   
+                <button type="submit" class="btn" onclick="checarCPF(); return false ">BUSCAR</button>
+            </form>
+            <p class="link"><b>PESSOA NÃO ENCONTRADA?</b><br><a href="http://127.0.0.1:5500/front-end/cadastroPedestre.html">CLIQUE AQUI</a></p>
+        </div>    
+    </section>
+</body>
+<footer>
+    <section class="rodape">
+        <div class="copyright">
+            <h6 style="color: rgb(255, 255, 255);">
+                <br><img class="cpt" src="copyright.png">Copyright <br> 
+                <br>DAE - Departamento de Apoio a Escola
+                <br>Secretaria Municipal da Educação
+                <br>
+                <br>Developers Tatiane Kiill - Caio Mazzoleni
+                <br>Supervisionado por Clécio Souza
+            </h6>
+        </div>
+    </section>
+</footer>
+</html>
